@@ -1,0 +1,5 @@
+(executable
+ (name tests)
+ (public_name tall.tests)
+ (link_flags -linkall)
+ (libraries ounit2))
